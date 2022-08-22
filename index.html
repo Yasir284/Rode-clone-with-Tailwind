@@ -11,37 +11,119 @@
     <script>
       tailwind.config = {
         theme: {
+          // SCREENS
           screens: {
             sm: "480px",
             md: "768px",
             lg: "1024px",
-            xl: "1280px",
+            xl: "1200px",
             "2xl": "1536px",
           },
 
+          // FONT
+          fontFamily: {
+            f1: ["Inter", "system-ui"],
+          },
+
+          // COLOURS
           extend: {
             colors: {
-              clifford: "#da373d",
+              swhite: "#fcf8f5",
+              purple: "#a573c3",
+              textc: "#ad9970",
+              bgblack: "#131313",
+              bg: "#f8f9fa",
             },
 
+            // BACKGROUND IMAGES
             backgroundImage: {
-              img1: "url('./Images/arrow-right.png')",
-              img2: "url('./Images/accessories-module.png')",
-              img2: "url('./Images/thumbnail6.jpeg')",
-              img2: "url('./Images/')",
-              img2: "url('./Images/')",
-              img2: "url('./Images/')",
-              img2: "url('./Images/')",
-              img2: "url('./Images/')",
-              img2: "url('./Images/')",
-              img2: "url('./Images/')",
+              rodeImg1:
+                "url('./Images/rode-rodecaster-pro-II-home-page-800x700-rgb.jpeg')",
+              femaleImg:
+                "url('./Images/rode-nth100-lifestyle-insitu-female-looking-down-grey-1920x700-rgb.jpg')",
+              micImg1:
+                "url('./Images/rode-nt-usb-webheader-v7-800x700-rgb.jpeg')",
+              micImg2:
+                "url('./Images/rode-podmic-webheader-800x700-rgb-(2).jpeg')",
+              speakers: "url('./Images/WIGOII-WEBHEADER-02.jpg')",
+              micImg3:
+                "url('./Images/rode-nt-usb-mini-webheader-1920x700-rgb (2).jpg')",
+              microphones:
+                "url('./Images/images_page_1_modules_5357_microphones-module-1200x300-rgb.png')",
+              interface:
+                "url('./Images/images_page_1_modules_5359_interfaces-module-2022-1200x300-rgb.jpg')",
+              software: "url('./Images/software-module.png')",
+              thumbnail1: "url('./Images/thumbnail6.jpeg')",
+              thumbnail2: "url('./Images/thumbnail.jpg')",
+              rodeImg2:
+                "url('./Images/rode-rodecaster-pro-II-on-black-front-580x509.jpg')",
+              rodeImg3:
+                "url('./Images/rode-rodecaster-pro-II-on-black-front-.jpg')",
             },
           },
         },
       };
     </script>
+
+    <!-- ==========FONT-AWESOME ICONS========== -->
+    <script
+      src="https://kit.fontawesome.com/c10c2f8581.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ==========FAVICON========== -->
+    <link rel="icon" href="https://cdn.rode.com/website/rode-favicon.svg" />
+
+    <!-- ==========FONTS========== -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="/css/app.css?id=7e97e1c7e116f28348faa05149e6a23c"
+      rel="stylesheet"
+    />
   </head>
-  <body class="bg-img1">
-    <img src="./Images/" alt="" />
+  <body class="bg-bg">
+    <nav class="flex flex-row items-center xl:block">
+      <!-- =========NAV-1======= -->
+      <div
+        class="flex-1 px-16 md:px-20 flex flex-row justify-between items-center text-gray-400"
+      >
+        <div class="flex flex-row items-center gap-3">
+          <img
+            class="w-8 xl:hidden"
+            src="./Images/nav-icon.png"
+            alt="nav-icon"
+          />
+          <i class="fa fa-location-dot"></i>
+          <p class="font-light text-base xl:text-sm">EN</p>
+          <i class="fa fa-caret-down"></i>
+        </div>
+
+        <div>
+          <a class="hidden xl:block" href="https://warranty.rode.com/">
+            <i class="fa fa-user"></i>
+          </a>
+        </div>
+      </div>
+      <hr class="hidden xl:block border-gray-400" />
+
+      <!-- =========NAV-2======= -->
+      <div
+        class="basis-2/3 xl:pt-6 px-16 md:px-20 flex flex-row justify-between items-center"
+      >
+        <img class="w-20" src="./Images/rode-logo.svg" alt="logo" />
+        <div class="hidden xl:flex flex-row gap-6">
+          <a href="#">PRODUCTS</a>
+          <a href="#">USER GUIDES </a>
+          <a href="#">SOLUTIONS </a>
+          <a href="#">APPAREL</a>
+          <a href="#">SUPPORT</a>
+        </div>
+        <i class="fa fa-magnifying-glass"></i>
+      </div>
+    </nav>
   </body>
 </html>
