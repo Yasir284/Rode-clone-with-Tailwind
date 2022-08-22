@@ -1,6 +1,6 @@
 ![badge](https://img.shields.io/badge/MADE%20WITH-TAILWIND-blue)
 ![badge](https://img.shields.io/badge/TIME%20TAKEN-1%20day-red)
-[![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://shopify-clone-by-yasir.netlify.app/)
+[![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://rode-clone-by-yasir.netlify.app/)
 
 # Shopify Clone-With Tailwind
 
@@ -8,7 +8,7 @@
 
 - It took me 1 day to complete this project.
 
-  [![badge](https://img.shields.io/badge/LINK%20OF-PROJECT-darkgreen)](https://shopify-clone-by-yasir.netlify.app/)
+  [![badge](https://img.shields.io/badge/LINK%20OF-PROJECT-purple)](https://rode-clone-by-yasir.netlify.app/)
 
 ---
 
@@ -27,13 +27,13 @@
 
 - Desktop View
 
-![App Screenshot1](./shopify-images/shopify-clone-ss.png)
+![App Screenshot1](./Images/rode-clone-ss.png)
 
 - Mobile View
 
-  ![Mobile View](./shopify-images/shopify-clone-mobile-vs1.png)
+  ![Mobile View](./Images/rode-clone-mobilevs1.png)
 
-  ![Mobile View](./shopify-images/shopify-colone-mobilevs2.png)
+  ![Mobile View](./Images/rode-clone-mobilevs2.png)
 
 ---
 
