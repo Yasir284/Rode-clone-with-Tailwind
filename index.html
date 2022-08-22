@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rode-clone</title>
+    <title>RØDE-clone</title>
 
     <!-- =======TAIWIND====== -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -86,6 +86,22 @@
       href="/css/app.css?id=7e97e1c7e116f28348faa05149e6a23c"
       rel="stylesheet"
     />
+
+    <!-- ==========CSS========== -->
+    <style>
+      body::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      body::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: black;
+        border-radius: 20px;
+      }
+    </style>
   </head>
   <body class="text-Inter">
     <!-- =========NAVBAR======= -->
@@ -531,15 +547,19 @@
     </section>
 
     <!-- =========SECTION-3======= -->
-    <section class="">
+    <section>
       <h1 class="text-textc text-5xl font-bold text-center my-8">
         Latest From The RØDE Blog
       </h1>
 
-      <div class="bg-bg">
+      <div
+        class="bg-bg flex flex-row flex-wrap justify-center gap-8 py-16 px-16"
+      >
         <!-- CARD-1 -->
-        <div>
-          <h1 class="text-3xl text-black">
+        <div
+          class="w-[30rem] shadow-xl bg-white flex flex-col justify-center items-center gap-6 p-6 text-center"
+        >
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
             The Difference Between Large-Diaphragm and Small-Diaphragm Condenser
             Microphones
           </h1>
@@ -549,14 +569,212 @@
             condenser microphones, and what each is best used for.
           </p>
           <button
-            class="rounded-3xl px-8 py-2 text-white bg-textc border-solid border-2 border-transparent hover:text-textc hover:bg-transparent hover:border-textc transition-all duration-300 ease-in-out"
+            class="rounded-3xl px-8 mt-6 py-2 text-white bg-textc border-solid border-2 border-transparent hover:text-textc hover:bg-transparent hover:border-textc transition-all duration-300 ease-in-out"
           >
             LEARN MORE
           </button>
         </div>
 
-        <!-- CARD-1 -->
+        <!-- CARD-2 -->
+        <div
+          class="w-[30rem] shadow-xl bg-white flex flex-col justify-center items-center gap-6 p-6 text-center"
+        >
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
+            What is a Condenser Microphone and When to Use One
+          </h1>
+          <img src="./Images/thumbnail.jpg" alt="thumbnail" />
+          <p class="text-gray-700">
+            Learn more about the different types of condenser mics, how they
+            work and the best applications for using them.
+          </p>
+          <button
+            class="rounded-3xl px-8 mt-6 py-2 text-white bg-textc border-solid border-2 border-transparent hover:text-textc hover:bg-transparent hover:border-textc transition-all duration-300 ease-in-out"
+          >
+            LEARN MORE
+          </button>
+        </div>
+
+        <!-- CARD-3 -->
+        <div
+          class="w-[30rem] shadow-xl bg-white flex flex-col justify-center items-center gap-6 p-6 text-center"
+        >
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
+            Firmware Version 1.0.7 for the RØDECaster Pro II is Available Now
+          </h1>
+          <img
+            src="./Images/rode-rodecaster-pro-II-on-black-front-580x509.jpg"
+            alt="thumbnail"
+          />
+          <p class="text-gray-700">
+            Firmware version 1.0.7 includes key feature additions, such as
+            custom routing for USB and Bluetooth outputs, and more.
+          </p>
+          <button
+            class="rounded-3xl px-8 mt-6 py-2 text-white bg-textc border-solid border-2 border-transparent hover:text-textc hover:bg-transparent hover:border-textc transition-all duration-300 ease-in-out"
+          >
+            LEARN MORE
+          </button>
+        </div>
+
+        <!-- CARD-4 -->
+        <div
+          class="w-[30rem] shadow-xl bg-white flex flex-col justify-center items-center gap-6 p-6 text-center"
+        >
+          <h1 class="text-xl md:text-2xl lg:text-3xl text-black">
+            The RØDECaster Pro II Is Shipping Now
+          </h1>
+          <img
+            src="./Images/rode-rodecaster-pro-II-on-black-front-.jpg"
+            alt="thumbnail"
+          />
+          <p class="text-gray-700">
+            The world’s most powerful all-in-one audio solution for content
+            creators is now available worldwide.
+          </p>
+          <button
+            class="rounded-3xl px-8 mt-6 py-2 text-white bg-textc border-solid border-2 border-transparent hover:text-textc hover:bg-transparent hover:border-textc transition-all duration-300 ease-in-out"
+          >
+            LEARN MORE
+          </button>
+        </div>
       </div>
     </section>
+
+    <!-- =========SECTION-4======= -->
+    <footer>
+      <hr class="mt-24 mb-16 border-gray-400" />
+      <div
+        class="px-4 lg:px-20 flex flex-row flex-wrap justify-between items-start gap-3"
+      >
+        <img
+          class="w-32"
+          src="./Images/RODE_logo_142x85_desktop_light_mode.svg"
+          alt="logo"
+        />
+
+        <div class="flex flex-col gap-3">
+          <p class="font-semibold">Products</p>
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/microphones"
+            >Microphones</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/headphones"
+            >Headphones</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/interfaces-and-mixers"
+            >Interfaces and Mixers</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/accessories"
+            >Accessories</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/software"
+            >Software</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://store.rode.com/"
+            >Apparel</a
+          >
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <p class="font-semibold">Support</p>
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/support/contact"
+            >Contact RØDE</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://warranty.rode.com/request_service"
+            >Service Centre</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://warranty.rode.com/"
+            >Warranty</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/support/where-to-buy"
+            >Where to Buy</a
+          >
+        </div>
+
+        <div class="flex flex-col gap-3">
+          <p class="font-semibold">Company</p>
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/about/about-rode"
+            >About RØDE</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/about/news-info/all"
+            >News and Info</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://rode.com/en/about/job-opportunities/all"
+            >Job Opportunities</a
+          >
+          <p class="font-semibold">Account</p>
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://warranty.rode.com/my_account"
+            >Manage your Account</a
+          >
+          <a
+            class="text-mygray hover:translate-x-3 transition-all duration-300 ease-in-out"
+            href="https://warranty.rode.com/"
+            >Create Account</a
+          >
+        </div>
+
+        <div class="flex flex-col items-end gap-3">
+          <h1 class="text-right font-semibold text-xl md:text-2xl">
+            Subscribe to our latest <br />
+            news and offers
+          </h1>
+          <button
+            class="rounded-3xl px-8 mt-6 py-2 text-white bg-textc border-solid border-2 border-transparent hover:text-textc hover:bg-transparent hover:border-textc transition-all duration-300 ease-in-out"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+
+      <hr class="mt-24 mb-12 border-gray-400" />
+      <div class="mb-12 flex flex-row flex-wrap justify-between text-textc">
+        <p>© 2022 RØDE All Rights Reserved.</p>
+        <p>Privacy Policy | Terms & Conditions</p>
+        <div class="flex flex-row flex-wrap gap-3">
+          <a href="https://www.facebook.com/rodemic">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/rodemics">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://instagram.com/rodemic/">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com/rodemicrophones"
+            ><i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://www.tiktok.com/@rode?lang=en">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
