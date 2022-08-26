@@ -2,7 +2,7 @@
 ![badge](https://img.shields.io/badge/TIME%20TAKEN-1%20day-red)
 [![badge](https://img.shields.io/badge/SEE%20DEMO%20-VISIT-green)](https://rode-clone-by-yasir.netlify.app/)
 
-# Shopify Clone-With Tailwind
+# Rode Clone-With Tailwind
 
 - I have made my Third Tailwind CSS project , which is Rode clone just using Tailwind CSS. It is mobile responsive, I have added some hovering effects to it and I have added the original shopify links which will redirect you to the original website. I learned a lot about Tailwind by making this project.
 
